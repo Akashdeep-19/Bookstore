@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id =  "@+id/profileLinearLayout"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:id = "@+id/profileImageView"
+        android:layout_margin="5dp"
+        android:src="@drawable/profile2"
+        />
+
+    <TextView
+        android:id="@+id/profileTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profileLinearLayout"
+        android:clickable="true"
+        />
+</RelativeLayout>

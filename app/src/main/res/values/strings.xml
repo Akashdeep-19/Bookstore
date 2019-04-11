@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">bookstore</string>
+    <string name="title_activity_books_view">booksViewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="filters">
+        <item>"Title"</item>
+        <item>"Author"</item>
+        <item>"Course"</item>
+        <item>"Academic Year"</item>
+        <item>"Genre"</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

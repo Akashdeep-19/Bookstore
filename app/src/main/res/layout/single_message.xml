@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_messages"
+    >
+
+
+    <TextView
+        android:id="@+id/message_sender_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="loadn"
+        android:background="@color/colorPrimary"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_alignParentStart="true"
+       android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <TextView
+        android:id="@+id/message_sender_time"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/message_sender_text"
+        android:hint="load"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true"
+        android:textSize="10sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+         />
+    <TextView
+        android:id="@+id/message_user_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="loadn"
+        android:background="@color/colorPrimary"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <TextView
+        android:id="@+id/message_user_time"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/message_user_text"
+        android:hint="load"
+        android:textAllCaps="false"
+        android:textSize="10sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+</RelativeLayout>
